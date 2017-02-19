@@ -1,5 +1,7 @@
 # ManutMood
 
+### Your voice express your emotion state, create your personal mood board by ManutMood.
+
 ## Feature
 
 ### Primary Feature
@@ -15,6 +17,10 @@
 1. Alarm
 2. Suggestion base on the emotion feedback
   
+
+
+
+
 
 ## Work Together
 
@@ -56,5 +62,8 @@ The dependencies of this project include:
 ### Support Info
 
 [Terminal Cheatsheet](https://github.com/0nn0/terminal-mac-cheatsheet)
+
 [終端指令小抄](https://github.com/0nn0/terminal-mac-cheatsheet/tree/master/%E4%B8%AD%E6%96%87%E8%AF%B7%E5%8F%82%E8%80%83)
+
 [How to use Git, 簡易使用教學](http://www.bootcss.com/p/git-guide/)
+
