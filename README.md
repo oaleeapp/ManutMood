@@ -52,18 +52,16 @@ open the `ManutMood.xcworkspace`, then you can start to work.
 
 The dependencies of this project include:
 
-[Moya](https://github.com/Moya/Moya) - Network abstraction layer written in Swift.
-[SwiftyJSON](https://github.com/SwiftyJSON/SwiftyJSON) - The better way to deal with JSON data in Swift
-[Chart/Realm](https://github.com/danielgindi/Charts) - Beautiful charts for iOS/tvOS/OSX! The Apple side of the crossplatform MPAndroidChart.
-[lottie-ios](https://github.com/airbnb/lottie-ios) - An iOS library to natively render After Effects vector animations http://airbnb.design/lottie/
+- [Moya](https://github.com/Moya/Moya) - Network abstraction layer written in Swift
+- [SwiftyJSON](https://github.com/SwiftyJSON/SwiftyJSON) - The better way to deal with JSON data in Swift
+- [Chart/Realm](https://github.com/danielgindi/Charts) - Beautiful charts for iOS/tvOS/OSX! The Apple side of the crossplatform MPAndroidChart
+- [lottie-ios](https://github.com/airbnb/lottie-ios) - An iOS library to natively render After Effects vector animations http://airbnb.design/lottie/
 
 
 
 ### Support Info
 
-[Terminal Cheatsheet](https://github.com/0nn0/terminal-mac-cheatsheet)
-
-[終端指令小抄](https://github.com/0nn0/terminal-mac-cheatsheet/tree/master/%E4%B8%AD%E6%96%87%E8%AF%B7%E5%8F%82%E8%80%83)
-
-[How to use Git, 簡易使用教學](http://www.bootcss.com/p/git-guide/)
+- [Terminal Cheatsheet](https://github.com/0nn0/terminal-mac-cheatsheet)
+- [終端指令小抄](https://github.com/0nn0/terminal-mac-cheatsheet/tree/master/%E4%B8%AD%E6%96%87%E8%AF%B7%E5%8F%82%E8%80%83)
+- [How to use Git, 簡易使用教學](http://www.bootcss.com/p/git-guide/)
 
