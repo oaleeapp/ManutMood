@@ -10,4 +10,8 @@ target 'ManutMood' do
   pod 'SwiftyJSON'
   pod 'Charts/Realm'
   pod 'lottie-ios'
+  pod 'Firebase/Core'
+  pod 'Firebase/Database'
+  pod 'Firebase/Auth'
+  pod 'GoogleSignIn'
 end

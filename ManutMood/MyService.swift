@@ -13,6 +13,15 @@ enum MyService {
     case analyzeWav(audioData: Data)
 }
 
+//{
+//    "energy" : 2,
+//    "calm" : 46,
+//    "error" : 0,
+//    "anger" : 0,
+//    "sorrow" : 0,
+//    "joy" : 2
+//}
+
 // MARK: - TargetType Protocol Implementation
 extension MyService: TargetType {
     var baseURL: URL { return URL(string: "https://api.webempath.net/v1")! }

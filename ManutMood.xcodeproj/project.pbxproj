@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		06790E7C4D81B2C7B9E9A348 /* Pods_ManutMood.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF43AEB091422D5013227BFF /* Pods_ManutMood.framework */; };
+		9BBBBCC01E5DB3DE0004E6A4 /* EmotionState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBBBCBF1E5DB3DE0004E6A4 /* EmotionState.swift */; };
 		9BBE9B521E555C1000D4709D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBE9B511E555C1000D4709D /* AppDelegate.swift */; };
 		9BBE9B541E555C1000D4709D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBE9B531E555C1000D4709D /* ViewController.swift */; };
 		9BBE9B571E555C1000D4709D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BBE9B551E555C1000D4709D /* Main.storyboard */; };
@@ -15,11 +16,13 @@
 		9BBE9B5C1E555C1000D4709D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BBE9B5A1E555C1000D4709D /* LaunchScreen.storyboard */; };
 		9BBE9B641E555EF900D4709D /* MyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBE9B631E555EF900D4709D /* MyService.swift */; };
 		9BBE9B661E55631D00D4709D /* Screaming.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9BBE9B651E55631D00D4709D /* Screaming.wav */; };
+		9BFBBE3D1E5E91A800451EF9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9BFBBE3C1E5E91A800451EF9 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		108EFAA1CE4C2A1C6135AB0E /* Pods-ManutMood.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ManutMood.release.xcconfig"; path = "Pods/Target Support Files/Pods-ManutMood/Pods-ManutMood.release.xcconfig"; sourceTree = "<group>"; };
 		4279E60B2ED2CDC788BCA1F8 /* Pods-ManutMood.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ManutMood.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ManutMood/Pods-ManutMood.debug.xcconfig"; sourceTree = "<group>"; };
+		9BBBBCBF1E5DB3DE0004E6A4 /* EmotionState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmotionState.swift; sourceTree = "<group>"; };
 		9BBE9B4E1E555C1000D4709D /* ManutMood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ManutMood.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BBE9B511E555C1000D4709D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9BBE9B531E555C1000D4709D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -29,6 +32,7 @@
 		9BBE9B5D1E555C1000D4709D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9BBE9B631E555EF900D4709D /* MyService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyService.swift; sourceTree = "<group>"; };
 		9BBE9B651E55631D00D4709D /* Screaming.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Screaming.wav; sourceTree = "<group>"; };
+		9BFBBE3C1E5E91A800451EF9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FF43AEB091422D5013227BFF /* Pods_ManutMood.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ManutMood.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -61,6 +65,14 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		9BBBBCBE1E5DAB850004E6A4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9BBBBCBF1E5DB3DE0004E6A4 /* EmotionState.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		9BBE9B451E555C0F00D4709D = {
 			isa = PBXGroup;
 			children = (
@@ -82,6 +94,7 @@
 		9BBE9B501E555C1000D4709D /* ManutMood */ = {
 			isa = PBXGroup;
 			children = (
+				9BBBBCBE1E5DAB850004E6A4 /* Model */,
 				9BBE9B511E555C1000D4709D /* AppDelegate.swift */,
 				9BBE9B531E555C1000D4709D /* ViewController.swift */,
 				9BBE9B551E555C1000D4709D /* Main.storyboard */,
@@ -89,6 +102,7 @@
 				9BBE9B651E55631D00D4709D /* Screaming.wav */,
 				9BBE9B5A1E555C1000D4709D /* LaunchScreen.storyboard */,
 				9BBE9B5D1E555C1000D4709D /* Info.plist */,
+				9BFBBE3C1E5E91A800451EF9 /* GoogleService-Info.plist */,
 				9BBE9B631E555EF900D4709D /* MyService.swift */,
 			);
 			path = ManutMood;
@@ -159,6 +173,7 @@
 			files = (
 				9BBE9B5C1E555C1000D4709D /* LaunchScreen.storyboard in Resources */,
 				9BBE9B591E555C1000D4709D /* Assets.xcassets in Resources */,
+				9BFBBE3D1E5E91A800451EF9 /* GoogleService-Info.plist in Resources */,
 				9BBE9B661E55631D00D4709D /* Screaming.wav in Resources */,
 				9BBE9B571E555C1000D4709D /* Main.storyboard in Resources */,
 			);
@@ -220,6 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BBE9B641E555EF900D4709D /* MyService.swift in Sources */,
+				9BBBBCC01E5DB3DE0004E6A4 /* EmotionState.swift in Sources */,
 				9BBE9B541E555C1000D4709D /* ViewController.swift in Sources */,
 				9BBE9B521E555C1000D4709D /* AppDelegate.swift in Sources */,
 			);

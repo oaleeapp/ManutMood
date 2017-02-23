@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1217" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -28,16 +28,25 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="klH-Dl-Qh4" customClass="PieChartView" customModule="Charts">
+                                <rect key="frame" x="16" y="49" width="343" height="602"/>
+                                <color key="backgroundColor" red="0.96862745100000003" green="0.96862745100000003" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="KkP-vZ-bp9" secondAttribute="trailing" id="0FX-5E-cQr"/>
                             <constraint firstItem="KkP-vZ-bp9" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="IxF-xG-JB0"/>
+                            <constraint firstItem="klH-Dl-Qh4" firstAttribute="top" secondItem="KkP-vZ-bp9" secondAttribute="bottom" constant="8" id="QlN-qX-ns6"/>
                             <constraint firstItem="KkP-vZ-bp9" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="VBI-fh-wOa"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="klH-Dl-Qh4" secondAttribute="trailing" id="W8m-fA-gx9"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="klH-Dl-Qh4" secondAttribute="bottom" constant="16" id="aFw-Wg-SI5"/>
+                            <constraint firstItem="klH-Dl-Qh4" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="ueF-VB-VDf"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="emotionLabel" destination="KkP-vZ-bp9" id="rr5-vI-ykf"/>
+                        <outlet property="emotionPieChartView" destination="klH-Dl-Qh4" id="sAg-Yu-bEV"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
